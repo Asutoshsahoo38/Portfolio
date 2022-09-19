@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0%;
+}
+.sidebar{
+    background-color: rgb(138, 132, 132);
+    width: 434px;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding:33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width:90vw;
+}
+.container{
+    display:flex;
+}
+.infoContainer{
+    background-color: white;
+    height: 60vh;
+    width: 80vw;
+    margin: 144px auto;
+    display:flex;
+    justify-content: space-around;
+}
+.hello{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Monospace;
+}
+.Name{
+    font-size: 34px;
+    font-family: Fantasy;
+    margin-top: 20px;
+}
+
+.about{
+    font-size: 30px;
+    margin-top: 15px;
+}
+.buttons button{
+    padding: 9px 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 38px 4px;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    color: black;
+    background-color: white;
+
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.devPIC img{
+    height: 60vh;
+    width: 250px;
+    
+}
+.detail{
+    border-radius: 30px;
+    margin-top: 25%;
+    margin-left: 200px;
+    text-align: center;
+    border: 5px solid;
+    width: 500px;
+    height: 200px;
+    background-color: black;
+}
+.email{
+
+    font-size: 25px;
+    margin: 10px;
+}
+.email a{
+    text-decoration: none;
+}
+.facebook{
+    font-size: 25px;
+    margin: 10px;
+}
+.facebook a{
+    text-decoration: none;
+}
+.GitHub{
+    font-size: 25px;
+    margin: 10px;
+}
+.GitHub a{
+    text-decoration: none;
+}
+.detail a:hover {
+    
+    color: white;
+  }
+.c{
+    margin-top:5%;
+}  
